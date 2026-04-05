@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salgados Brasil - Os melhores salgados online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-drumstick-bite"></i> Salgados <span>Brasil</span></h1>
+                <p>Sabor que vende, qualidade que fica!</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="cardapio.html"><i class="fas fa-utensils"></i> Cardápio</a></li>
+                    <li><a href="carrinho.html"><i class="fas fa-shopping-cart"></i> Carrinho <span id="cart-count" class="cart-badge">0</span></a></li>
+                    <li><a href="sobre.html"><i class="fas fa-heart"></i> Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Os salgados mais <span class="highlight">cobiçados</span> do Brasil</h2>
+                <p>Feitos com amor, crocantes por fora, recheios incríveis por dentro. Peça agora e receba em casa ou retire!</p>
+                <div class="hero-buttons">
+                    <a href="cardapio.html" class="btn btn-primary"><i class="fas fa-shopping-bag"></i> Ver Cardápio</a>
+                    <a href="#promocoes" class="btn btn-outline"><i class="fas fa-percent"></i> Promoções</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1625938144755-6e1923d4dde3?w=500&auto=format" alt="Salgados deliciosos">
+            </div>
+        </section>
+
+        <section id="promocoes" class="promotions">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-fire"></i> Promoções Imperdíveis</h2>
+                    <p>Os mais pedidos com desconto especial</p>
+                </div>
+                <div class="promo-grid" id="promo-grid"></div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-th-large"></i> Navegue por categorias</h2>
+                </div>
+                <div class="categories-grid">
+                    <div class="category-card" data-cat="Tradicionais"><i class="fas fa-drumstick"></i><h3>Tradicionais</h3><p>Os clássicos</p></div>
+                    <div class="category-card" data-cat="Gourmet"><i class="fas fa-crown"></i><h3>Gourmet</h3><p>Sabor refinado</p></div>
+                    <div class="category-card" data-cat="Premium"><i class="fas fa-gem"></i><h3>Super Premium</h3><p>Ingredientes nobres</p></div>
+                    <div class="category-card" data-cat="Vegetariano"><i class="fas fa-leaf"></i><h3>Vegetariano</h3><p>Leves e saborosos</p></div>
+                    <div class="category-card" data-cat="Assados"><i class="fas fa-oven"></i><h3>Assados</h3><p>Mais saudáveis</p></div>
+                    <div class="category-card" data-cat="Doces"><i class="fas fa-candy-cane"></i><h3>Doces</h3><p>Sobremesas</p></div>
+                    <div class="category-card" data-cat="Bebidas"><i class="fas fa-glass-cheers"></i><h3>Bebidas</h3><p>Refrescantes</p></div>
+                    <div class="category-card" data-cat="Combo"><i class="fas fa-boxes"></i><h3>Combos</h3><p>Economize</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo"><h2><i class="fas fa-drumstick-bite"></i> Salgados Brasil</h2><p>Sabor que alegra seu dia</p></div>
+                <div class="footer-contact"><h3>Contato</h3><p><i class="fab fa-whatsapp"></i> (11) 99999-9999</p><p><i class="fas fa-envelope"></i> contato@salgadosbrasil.com</p></div>
+                <div class="footer-hours"><h3>Funcionamento</h3><p>Seg-Sáb: 10h às 22h</p><p>Dom: 11h às 20h</p></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 Salgados Brasil - O sabor que conquista</p></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

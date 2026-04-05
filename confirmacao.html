@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Confirmado - Salgados Brasil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo"><h1><i class="fas fa-drumstick-bite"></i> Salgados <span>Brasil</span></h1></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="cardapio.html"><i class="fas fa-utensils"></i> Cardápio</a></li>
+                    <li><a href="carrinho.html"><i class="fas fa-shopping-cart"></i> Carrinho <span id="cart-count" class="cart-badge">0</span></a></li>
+                    <li><a href="sobre.html"><i class="fas fa-heart"></i> Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="confirmacao-section">
+            <div class="confirmacao-card">
+                <div class="check-icon"><i class="fas fa-check-circle"></i></div>
+                <h2>Pedido Confirmado!</h2>
+                <p>Seu pedido foi recebido com sucesso. Em breve entraremos em contato via WhatsApp para confirmar a entrega.</p>
+                <div class="order-details" id="order-details"></div>
+                <div class="whatsapp-button">
+                    <a href="#" id="whatsapp-link" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Falar com o WhatsApp</a>
+                </div>
+                <div class="actions">
+                    <a href="cardapio.html" class="btn btn-primary"><i class="fas fa-shopping-bag"></i> Fazer novo pedido</a>
+                    <a href="index.html" class="btn btn-outline"><i class="fas fa-home"></i> Voltar para Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container"><div class="footer-bottom"><p>&copy; 2025 Salgados Brasil</p></div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

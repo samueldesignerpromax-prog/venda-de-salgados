@@ -1,0 +1,11 @@
+{
+  "name": "salgados-backend",
+  "version": "1.0.0",
+  "description": "API para sistema de vendas de salgados",
+  "main": "api/pedidos.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
